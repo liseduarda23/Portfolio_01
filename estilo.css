@@ -130,3 +130,39 @@ button:hover{
     background-color: transparent;
     border: 2px solid #3868d9;
 }
+img{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+    border: 2px dashed #fff;
+
+}
+
+.texto-caixa{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    color: #3868d9;
+ }
+
+.minicaixa{
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.minicaixa1{
+    padding: 0 10px 0 10px;
+    background-image: url(img3.jpg);
+}
+
+.minicaixa2{
+    margin: 10px 0 0 0;
+    padding: 200px 10px 0 10px;
+    background-image: url(img5.png);
+}
+
