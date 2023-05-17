@@ -17,7 +17,7 @@ body{
 
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-image: url(background.jpg);
+    background-image: url(back_2.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -37,12 +37,12 @@ header{
     display: flex;
     gap: 3rem;
     font-weight: 300;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .cabecalho-link a{
     color: white;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
@@ -66,18 +66,19 @@ header{
 }
 
 button{
-    color: #3868d9;
-    background: transparent;
-    border: 1px solid #3868d9;
+    color: #fff;
+    background: #bca58d;
+    border: 1px solid #bca58d;
     padding: 5px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 15px;
     width: 150px;
     cursor: pointer;
 }
 
 button:hover{
     background: #3868d9;
+    border: 1px solid #3868d9;
     color: white;
     transition: 0.5s;
 }
@@ -129,6 +130,7 @@ button:hover{
     padding: 20px 20px 20px 20px;
     background-color: transparent;
     border: 2px solid #3868d9;
+    border-radius: 20px;
 }
 img{
     width: 45%;
@@ -147,22 +149,53 @@ img{
 h2{
     text-align: center;
     color: #3868d9;
- }
+}
 
-.minicaixa{
+.caixa-img{
     width: 100px;
-    height: 200px;
+    height: 100px;
     background-color: #fff;
+    position: relative;
+    border-radius: 50px;
 }
 
-.minicaixa1{
-    padding: 0 10px 0 10px;
-    background-image: url(img3.jpg);
+.caixa-img1{
+    margin: 10px;
+    background-image: url(img_github2.jpg);
+    background-size: cover;
+}
+.caixa-img2{
+    margin: 10px;
+    background-image: url(img_escola.png);
+    background-size: cover;
+}
+.caixa-img3{
+    margin: 10px;
+    background-image: url(img_casa.png);
+    background-size: cover;
+}
+.caixa-img4{
+    margin: 10px;
+    background-image: url(img_trabalho.png);
+    background-size: cover;
 }
 
-.minicaixa2{
-    margin: 10px 0 0 0;
-    padding: 200px 10px 0 10px;
-    background-image: url(img5.png);
+.caixa-icones{
+    float: left; 
+    padding: 5px;
+    width: 125px;
+    height: 480px;
+    background-color: #bca58d;
+    border-radius: 20px;
 }
 
+.caixa-txt{
+    float: left;
+    font-size: 15px;
+    margin: 0px 0 5px 10px;
+    padding: 15px;
+    width: 520px;
+    height: 480px;
+    background-color: #bca58d;
+    border-radius: 20px;
+}
